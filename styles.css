@@ -9,11 +9,10 @@
   box-sizing: border-box;
   font-family: HelveticaNeueCyr, Arial, Helvetica, sans-serif;
 }
+
 svg {
   display: block;
   max-width: 100%;
-}
-.wrap {
 }
 
 .ease-in-out-animation {
