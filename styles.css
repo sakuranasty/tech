@@ -230,6 +230,7 @@ svg {
   .text-lower {
     margin-top: 13px;
     white-space: nowrap;
+    word-wrap: normal;
   }
   
   .device-block {
