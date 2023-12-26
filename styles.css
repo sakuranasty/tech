@@ -112,6 +112,8 @@ svg {
 .footer-text {
   margin: 9px auto 94px auto;
   font-size: 24px;
+  text-align: center;
+  line-height: 36px;
 }
 
 .text-block {
