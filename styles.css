@@ -106,7 +106,6 @@ svg {
   }
 }
 
-
 .text-block {
   font-weight: 700;
   font-size: 28px;
@@ -139,7 +138,6 @@ svg {
     transform: translate(0%);
   }
 }
-
 
 .device {
   position: relative;
@@ -244,10 +242,6 @@ svg {
   .shade-block {
     top: 27%;
   }  
-  
-  .lamp {
-
-  }
 
   .sign-block {
     max-width: 154px;
