@@ -13,6 +13,7 @@
 svg {
   display: block;
   max-width: 100%;
+  height: 100%;
 }
 
 .ease-in-out-animation {
@@ -32,7 +33,7 @@ svg {
 }
 
 .logo {
-  margin: 80px auto 45px;
+  margin: 80px auto 105px;
 }
 
 .main.animated {
@@ -41,7 +42,6 @@ svg {
   flex-direction: row;
   flex-wrap: wrap;
   position: relative;
-  margin-top: 50px;
   margin-bottom: 46px;
   justify-content: center;
 }
@@ -69,6 +69,7 @@ svg {
   position: absolute;
   top: 22%;
   left: 2%;
+  max-width: 95%;
   animation-name: plants;
 }
 
@@ -105,16 +106,6 @@ svg {
   }
 }
 
-.sign {
-  position: relative;
-}
-
-.footer-text {
-  margin: 9px auto 94px auto;
-  font-size: 24px;
-  text-align: center;
-  line-height: 36px;
-}
 
 .text-block {
   font-weight: 700;
@@ -136,7 +127,7 @@ svg {
   z-index: 1;
   top: 37%;
   animation-name: deviceblock;
-  max-width: 98%;
+  max-width: 99.5%;
 }
 
 @keyframes deviceblock {
@@ -174,8 +165,8 @@ svg {
 .shade-block {
   position: absolute;
   z-index: 5;
-  top: 24%;
-  max-width: 80%;
+  top: 23.7%;
+  max-width: 81%;
 }
 
 .shade {
@@ -196,6 +187,7 @@ svg {
   position: absolute;
   top: -43%;
   left: 39.5%;
+  max-width: 21%;
   animation-name: lamp;
 }
 
@@ -206,5 +198,70 @@ svg {
 
   to {
     transform: scale(1);
+  }
+}
+
+.footer-text {
+  margin-top: 9px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  text-align: center;
+  line-height: 36px;
+}
+
+@media screen and (max-width: 729px) {
+  .logo {
+    margin: 80px auto 77px;
+  }
+
+  .content {
+    max-width: 331px;
+  }
+  
+  .plants {
+    top: 25%;
+  }
+  
+  .text-block {
+    font-size: 12.5px;
+    top: 55px;
+  }
+  
+  .text-lower {
+    margin-top: 9px;
+  }
+  
+  .device-block {
+    top: 40.1%;
+  }
+  
+  .cone {
+    width: 55px;
+  }
+  
+  .shade-block {
+    top: 27%;
+  }  
+  
+  .lamp {
+
+  }
+
+  .sign-block {
+    max-width: 154px;
+    top: 50%;
+  }
+  
+  .sign {
+    width: 105px;
+    height: 78px;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 10%;
   }
 }
