@@ -29,11 +29,10 @@ svg {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  overflow: hidden;
 }
 
 .logo {
-  margin: 80px auto 105px;
+  margin: 80px auto 100px;
 }
 
 .main.animated {
@@ -42,8 +41,9 @@ svg {
   flex-direction: row;
   flex-wrap: wrap;
   position: relative;
-  margin-bottom: 46px;
+  margin-bottom: 100px;
   justify-content: center;
+  overflow: hidden;
 }
 
 .background-block {
@@ -168,7 +168,7 @@ svg {
 .shade-block {
   position: absolute;
   z-index: 5;
-  top: 23.7%;
+  top: 24%;
   max-width: 81%;
 }
 
@@ -205,10 +205,9 @@ svg {
 }
 
 .footer-text {
-  margin-top: 9px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -20px;
+  margin-right: -20px;
   font-size: 24px;
   text-align: center;
   line-height: 36px;
